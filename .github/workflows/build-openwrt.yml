@@ -38,6 +38,8 @@ env:
 jobs:
   build:
     runs-on: ubuntu-20.04
+    # ADD SOME TIME
+    timeout-minutes: 360
 
     steps:
     - name: Checkout
